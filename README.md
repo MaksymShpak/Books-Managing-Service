@@ -93,7 +93,7 @@ Example Result:
 ### Update a Book
 
 ```bash
-# Replace the <bookUuid> part with a real id from your todos table
+# Replace the <bookUuid> part with a real id from your books table
 curl -X PUT https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/book/<bookUuid>/update --data '{ "authorNmae": "Learn Serverless", "releaseDate": "09-08-1234" }'
 ```
 
@@ -105,7 +105,7 @@ Example Result:
 ### Delete a Book
 
 ```bash
-# Replace the <bookUuid> part with a real id from your todos table
+# Replace the <bookUuid> part with a real id from your books table
 curl -X DELETE https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/book/<bookUuid>/delete
 ```
 
