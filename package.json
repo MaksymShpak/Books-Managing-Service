@@ -1,0 +1,22 @@
+{
+  "name": "Books-Managing-Service",
+  "version": "1.0.0",
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "serverless offline start --skipCacheInvalidation",
+    "deploy": "serveless deploy"
+  },
+  "dependencies": {
+    "uuid": "^2.0.3",
+    "serverless": "^1.62.0",
+    "aws-sdk": "^2.610.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "serverless-http": "^2.3.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.0"
+  }
+}
